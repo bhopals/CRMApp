@@ -1,0 +1,22 @@
+{
+  "name": "crmapp",
+  "version": "1.0.0",
+  "description": "CRM Application - A NodeJS Express Mongo Backend Service",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bhopals/CRMApp.git"
+  },
+  "author": "Bhopal Singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bhopals/CRMApp/issues"
+  },
+  "homepage": "https://github.com/bhopals/CRMApp#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
