@@ -3,6 +3,7 @@ const routes = (app) => {
 
     app.route('/contacts')
        .get((req, res, next) => {
+         //middleware 
          next()
        }, getContacts)
        .post(addNewContact);
