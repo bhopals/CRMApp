@@ -13,6 +13,7 @@ export const addNewContact = (req, res) => {
     })
 }
 
+
 export const getContacts = (req, res) => {
     Contact.find({}, (err, contact) => {
         if(err) {
@@ -31,6 +32,7 @@ export const getcontactWithID = (req, res) => {
         res.json(contact)
     })
 }
+
 
 
 export const updateContact = (req, res) => {
